@@ -111,6 +111,7 @@ function Game() {
 	self.playSequence = function() {
 		self.currentPosition = 1;
 		self.audios = new Array();
+		// Exception occurs  in console but have not  find a solution jet.
 		for (var i = 0; i < self.sequence.length; i++) {
 			var position = self.sequence[i];
 			// red, green blue, yellow
