@@ -1,5 +1,5 @@
-
 // main game function
+// this game using trivian library
 function Game() {
 	if ( !(this instanceof arguments.callee) ) {
         return new arguments.callee(arguments); 
